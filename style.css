@@ -1,0 +1,52 @@
+@media (min-width: 319px) and (max-width: 480px){
+td{
+    background-color:rgb(145, 142, 142);
+    padding:5%;
+    font-size:10px;
+}
+table{
+    background-color:black;
+    height:auto;
+    width:50%;
+    text-align:center;
+    border-spacing:10%;
+    color:white;
+}
+
+}
+
+@media (min-width:481px) and (max-width:1200px){
+
+    td{
+        background-color:rgb(145, 142, 142);
+        padding:5%;
+        font-size:12px;
+    }
+    table{
+        background-color:black;
+        height:auto;
+        width:50%;
+        text-align:center;
+        border-spacing:10%;
+        color:white;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+    
+    td{
+        background-color:rgb(145, 142, 142);
+        padding:10%;
+    }
+    table{
+        background-color:black;
+        height:auto;
+        width:25%;
+        text-align:center;
+        border-spacing:5%;
+        color:white;
+    }
+    
+}
+
+
+

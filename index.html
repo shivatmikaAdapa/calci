@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Calculator</h1>
+    <table class="calculator">
+        <tr>
+            <td id="input" colspan="4"></td>
+        </tr>
+        <tr>
+            <td  onkeydown="getIn(event)" onclick="getInput(this.id)" style="background-color:rgb(92, 91, 91);" id="C">C</td>
+            <td  onkeydown="getIn(event)" onclick="getInput(this.id)" style="background-color:rgb(92, 91, 91);" id="%">%</td>
+            <td  onkeydown="getIn(event)" onclick="getInput(this.id)" style="background-color:rgb(92, 91, 91);" id="D">D</td>
+            <td  onkeydown="getIn(event)" onclick="getInput(this.id)" style="background-color:rgb(92, 91, 91);" id="/">/</td>
+        </tr>
+
+        <tr>
+            <td onkeydown="getIn(event)" onclick="getInput(this.id)" id="7">7</td>
+            <td onkeydown="getIn(event)" onclick="getInput(this.id)" id="8">8</td>
+            <td onkeydown="getIn(event)" onclick="getInput(this.id)" id="9">9</td>
+            <td onkeydown="getIn(event)" onclick="getInput(this.id)" style="background-color:rgb(92, 91, 91);" id="*">*</td>
+        </tr>
+        
+        <tr>
+            <td onkeydown="getIn(event)" onclick="getInput(this.id)" id="4">4</td>
+            <td onkeydown="getIn(event)" onclick="getInput(this.id)" id="5">5</td>
+            <td onkeydown="getIn(event)" onclick="getInput(this.id)" id="6">6</td>
+            <td onkeydown="getIn(event)" onclick="getInput(this.id)" style="background-color:rgb(92, 91, 91);" id="-">-</td>
+        </tr>
+
+        <tr>
+            <td onkeydown="getIn(event)" onclick="getInput(this.id)" id="1">1</td>
+            <td onkeydown="getIn(event)" onclick="getInput(this.id)" id="2">2</td>
+            <td onkeydown="getIn(event)" onclick="getInput(this.id)" id="3">3</td>
+            <td onkeydown="getIn(event)" onclick="getInput(this.id)" style="background-color:rgb(92, 91, 91);"id="+">+</td>
+        </tr>
+
+        <tr>
+            <td onkeydown="getIn(event)" onclick="getInput(this.id)" id="0">0</td>
+            <td onkeydown="getIn(event)" onclick="getInput(this.id)" id=".">.</td>
+            <td onkeydown="getIn(event)" onclick="getInput(this.id)" style="background-color:orange;"colspan="2" id="=">=</td>
+        </tr>
+
+        <tr>
+            <td colspan="4" id="output"></td>
+        </tr>
+
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
